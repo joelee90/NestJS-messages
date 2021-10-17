@@ -29,3 +29,20 @@ Repositores :
 - Ends up being TypeORM entity, Mongoose schema or similar.
 
 -Reporting Errors with Exceptions-
+
+-Dependency Injection-
+Why Exist? :
+
+Inversion of Control Principle : Classes should not create instances of its dependencies on its own.
+
+Useful when needed testing.
+
+Nest Dependency Injection Container/Injector
+
+Flow:
+
+At startup, register all classes with the container.
+Container will figure out what each dependency each class has.
+We then ask the container to create an instance of a class for us.
+Container creates all required dependencies and gives us the instance.
+Container will hold onto the created dependency instances and reuse them if needed.
