@@ -27,3 +27,5 @@ Repositores :
 
 - Place to put storage-related logic.
 - Ends up being TypeORM entity, Mongoose schema or similar.
+
+-Reporting Errors with Exceptions-
